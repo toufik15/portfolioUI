@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+}
+
+/*header section start */
+
+.header{
+	width: 100%;
+	background: #000000;
+}
+.header:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.header-container{
+	width: 70%;
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo h2{
+	margin-top: 10px;
+	color: white;
+}
+.main-menu{
+	width: 80%;
+	float: left;
+}
+.main-menu ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+
+}
+.main-menu ul li{
+	list-style-type: none;
+	float: left;
+}
+.main-menu ul li a{
+	text-decoration: none;
+	padding: 20px 18px;
+	display: block;
+	text-transform: capitalize;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/*header section end */
+
+/*banner section start*/
+.banner{
+	padding: 250px 0;
+	overflow: hidden;
+	width: 100%;
+	background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/hero-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.content h1{
+	color: white;
+	font-size: 4.4rem;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+.content p{
+	width: 60%;
+	margin: 0 auto;
+	color: rgba(255, 255, 255, 0.6);
+}
+span{
+	color: #11ABB0;
+}
+
+/*banner section end*/
+
+
+/*service section start*/
+
+.services{
+	background: #131516;
+	padding: 200px 0;
+}
+.service-top{
+	margin-bottom: 70px;
+}
+.service-top .row .col-md-4 p{
+	color: #11ABB0;
+}
+.service-top .row .col-md-4 h3{
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+.service-top .row .col-md-8 p{
+	font-size: 25px;
+	color: #57595A;
+}
+.service-bottom .row h5{
+	padding: 20px 0;
+	color: white;
+}
+.service-bottom .row p{
+	font-size: 20px;
+	color: #717373;
+}
+
+/*service section end*/
+
+.portfolio{
+	background: white;
+	padding: 200px 0;
+}
+.portfolio-top{
+	margin-bottom: 70px;
+}
+.portfolio-top .row .col-md-4 p{
+	color: #11ABB0;
+}
+.service-top .row .col-md-4 h3{
+	color: black;
+	margin-top: 10px;
+}
+.portfolio-top .row .col-md-8 p{
+	font-size: 25px;
+	color: #57595A;
+}
+.port-g-top{
+	p
+}
+
