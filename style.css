@@ -24,7 +24,7 @@ body{
 	float: left;
 }
 .logo h2{
-	margin-top: 10px;
+	margin-top: 15px;
 	color: white;
 }
 .main-menu{
@@ -43,18 +43,23 @@ body{
 }
 .main-menu ul li a{
 	text-decoration: none;
-	padding: 20px 18px;
+	padding: 25px 18px;
 	display: block;
 	text-transform: capitalize;
 	color: rgba(255, 255, 255, 0.6);
 }
-
+.main-menu .active a{
+	background: #11ABB0;
+}
+.main-menu ul li a:hover{
+	color: white;
+	transition: 1s;
+}
 /*header section end */
 
 /*banner section start*/
 .banner{
 	padding: 250px 0;
-	overflow: hidden;
 	width: 100%;
 	background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/hero-bg.jpg");
 	background-size: cover;
@@ -96,7 +101,7 @@ span{
 	color: #11ABB0;
 }
 .service-top .row .col-md-4 h3{
-	color: #FFFFFF;
+	color: white;
 	margin-top: 10px;
 }
 .service-top .row .col-md-8 p{
@@ -111,12 +116,19 @@ span{
 	font-size: 20px;
 	color: #717373;
 }
+.service-bottom .row span{
+	padding-right: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
 
 /*service section end*/
 
+/*portfolio section start*/
 .portfolio{
-	background: white;
+	background: #EFF0F0;
 	padding: 200px 0;
+	box-sizing: border-box;
 }
 .portfolio-top{
 	margin-bottom: 70px;
@@ -124,15 +136,52 @@ span{
 .portfolio-top .row .col-md-4 p{
 	color: #11ABB0;
 }
-.service-top .row .col-md-4 h3{
-	color: black;
-	margin-top: 10px;
-}
 .portfolio-top .row .col-md-8 p{
-	font-size: 25px;
+	font-size: 22px;
 	color: #57595A;
 }
-.port-g-top{
-	p
+
+.card-body:hover{
+	background: black;
+	color: white;
+	transition: 1s;
 }
 
+/*portfolio section end*/
+
+/*journal section start*/
+
+.journal{
+	background: #0E878B;
+	padding: 200px 0;
+}
+.journal-top{
+	color: white;
+}
+.journal-top h6{
+	color: #CFE7E8;
+	font-size: 17px;
+	margin-bottom: 90px;
+}
+.journal-bottom .row .col-md-1 img{
+	height: 70px;
+	width: 70px;
+	border: none;
+	border-radius: 50%;
+}
+.h2{
+	font-size: 40px;
+	color: white;
+}
+.par{
+	margin-bottom: 0;
+	color: #B2D9DA;
+	font-size: 18px;
+}
+.dateh4{
+	color: white;
+}
+.dateh6{
+	color: #B2D9DA;
+	font-size: 16px;
+}
