@@ -238,3 +238,14 @@ span{
 	margin-bottom: 2px;
 	color: #11ABB0;
 }
+.owl-carousel .owl-item img{
+	width: 70px;
+	height: 70px;
+	border: none;
+	border-radius: 50%;
+	float: left;
+}
+.user-bottom {
+	width:90%;
+	overflow: hidden;
+}
