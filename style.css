@@ -1,7 +1,9 @@
 body{
 	margin: 0;
-	font-family: "Roboto", sans-serif;
-	font-weight: normal;
+	padding: 0;
+/*	background: red;*/
+/*	font-family: "Roboto", sans-serif;
+	font-weight: normal;*/
 }
 
 /*header section start */
@@ -15,21 +17,21 @@ body{
 	display: block;
 	clear: both;
 }
-.header-container{
-	width: 70%;
-	margin: 0 auto;
+.header-containers{
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 .logo{
-	width: 20%;
-	float: left;
+	padding-right: 2rem;
 }
 .logo h2{
-	margin-top: 15px;
+	font-size: 30px;
+	margin-top: 18px;
 	color: white;
 }
 .main-menu{
-	width: 80%;
-	float: left;
+	float: right;
 }
 .main-menu ul{
 	margin: 0;
@@ -58,25 +60,25 @@ body{
 /*header section end */
 
 /*banner section start*/
-.banner{
+.banner-section{
 	padding: 250px 0;
 	width: 100%;
 	background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/hero-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.content{
+.contente{
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
 }
-.content h1{
+.contente h1{
 	color: white;
 	font-size: 4.4rem;
 	margin-top: 0;
 	margin-bottom: 40px;
 }
-.content p{
+.contente p{
 	width: 60%;
 	margin: 0 auto;
 	color: rgba(255, 255, 255, 0.6);
@@ -163,13 +165,16 @@ span{
 	font-size: 17px;
 	margin-bottom: 90px;
 }
-.journal-bottom .row .col-md-1 img{
+.journal-bottom .row .col-lg-1 img{
+	margin-top: 10px;
 	height: 70px;
 	width: 70px;
 	border: none;
 	border-radius: 50%;
 }
 .h2{
+	margin-top: 0;
+	padding-top: 0;
 	font-size: 40px;
 	color: white;
 }
@@ -184,4 +189,52 @@ span{
 .dateh6{
 	color: #B2D9DA;
 	font-size: 16px;
+}
+
+/*journal section end*/
+
+
+.about-us{
+	background: white;
+	padding: 200px 0;
+}
+.about-top{
+}
+.about-top .row .col-md-4 p{
+	color: #11ABB0;
+}
+.about-top .row .col-md-4 h3{
+	color: black;
+	margin-top: 10px;
+}
+.about-top >.row >.col-md-8 >p{
+	font-size: 23px;
+	color: #57595A;
+}
+.about-bottom .row h5{
+	letter-spacing: 4PX;
+	padding: 20px 0;
+	color: #11ABB0;
+}
+.about-bottom .row >p{
+	font-size: 20px;
+	color: #717373;
+}
+.about-top h4{
+	margin: 50px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+.about-bottom h4{
+	margin: 50px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.teemname{
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 2px;
+	color: #11ABB0;
 }
