@@ -1,4 +1,5 @@
 body{
+	width: 100%;
 	margin: 0;
 	padding: 0;
 /*	background: red;*/
@@ -9,8 +10,10 @@ body{
 /*header section start */
 
 .header{
+	position: relative;
 	width: 100%;
 	background: #000000;
+	z-index: 9999;
 }
 .header:after{
 	content: "";
@@ -30,13 +33,9 @@ body{
 	margin-top: 18px;
 	color: white;
 }
-.main-menu{
-	float: right;
-}
 .main-menu ul{
 	margin: 0;
 	padding: 0;
-	float: right;
 
 }
 .main-menu ul li{
@@ -87,7 +86,7 @@ body{
 }
 
 .bars{
-	position: fixed;
+	position: absolute;
 	top: 0;
 	right: 0;
 	z-index: 9999;
@@ -137,6 +136,7 @@ body{
 	background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/hero-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: fixed;
 }
 .contente{
 	width: 80%;
@@ -214,10 +214,13 @@ span{
 	color: #57595A;
 }
 
-.card-body:hover{
+.card:hover .card-body{
 	background: black;
 	color: white;
 	transition: 1s;
+}
+.card .card-body .card-title{
+	font-size: 16px;
 }
 
 /*portfolio section end*/
@@ -248,6 +251,10 @@ span{
 	padding-top: 0;
 	font-size: 40px;
 	color: white;
+	cursor: pointer;
+}
+.h2:hover{
+	color: #000000;
 }
 .par{
 	margin-bottom: 0;
@@ -264,6 +271,7 @@ span{
 
 /*journal section end*/
 
+/*about section start*/
 
 .about-us{
 	background: white;
@@ -321,9 +329,159 @@ span{
 	overflow: hidden;
 }
 
+/*about section end*/
+
+/*buy section start */
+
+.buy-section{
+	width: 100%;
+	background: #0E878B;
+	padding: 150px 0;
+	text-align: center;
+}
+.buy-section h2{
+	color: white;
+	margin: 0;
+}
+.buy-section h4{
+	padding: 20px 0;
+	width: 60%;
+	margin: 0 auto;
+	color: #B7DBDC;
+}
+.deam{
+	color: white;
+}
+.buy-section button{
+	margin-top: 20px;
+	padding: 20px 0;
+	border: none;
+	background: black;
+	color: white;
+	width: 45%;
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.buy-section button:hover{
+	background: white;
+	color: black;
+	transition: 0.5s;
+}
+
+
+
+.contact-us{
+	width: 100%;
+	background: black;
+	padding: 200px 0;
+}
+.contact-top h2{
+	margin-top: 0;
+	color: white;
+}
+.contact-top p{
+	color: #0E878B;
+	font-size: 18px;
+}
+.contact-bottom{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 100px;
+}
+.contact-bottom-left{
+	width: 60%;
+}
+.contact-bottom-left h2{
+	width: 90%;
+	font-size: 40px;
+	color: white;
+	line-height :50px;
+}
+.contact-bottom-left button{
+	margin-top: 60px;
+	padding: 20px 0;
+	border: none;
+	background: #0E878B;
+	color: white;
+	width: 90%;
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.contact-bottom-left button:hover{
+	background: white;
+	color: black;
+	transition: 0.5s;
+}
+.contact-bottom-right{
+	width: 40%;
+}
+.contact-bottom-right .icon{
+	font-size: 22px;
+	padding: 0px 20px;
+	float: left;
+	color: white;
+}
+.contact-bottom-right .info h5{
+	color: white;
+	padding-top: 5px;
+}
+.contact-bottom-right .info p{
+	margin-left: auto;
+	width: 86%;
+	font-size: 18px;
+	padding-top: 10px;
+	color: gray;
+}
+.address-top,
+.address-bottom{
+	width: 100%;
+	padding-left: 100px;
+	padding-bottom: 60px;
+}
 
 
 
 
-
-
+.footer{
+	padding-bottom: 100px;
+	width: 100%;
+	background: black;
+}
+.footer-left{
+	float: left;
+	width: 60%;
+}
+.footer-left p{
+	margin-top: 10px;
+	color: gray;
+}
+.footer-right{
+	width: 40%;
+	overflow: hidden;
+}
+.footer-list{
+	width: 100%;
+	padding-left: 100px;
+	margin: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+.footer-list li{
+	margin: 0;
+	list-style-type: none;
+}
+.footer-list li a{
+	color: white;
+	font-size: 25px;
+	padding: 0px 10px;
+}
+.footer-list li a:hover{
+	color: #0E878B;
+	transition: 0.3s;
+}
+.StyleShout{
+	color: white;
+	font-weight: bold;
+}

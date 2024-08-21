@@ -12,4 +12,54 @@
 	font-size: 30px;
 	padding: 19px 0;
 	}
+	.contente{
+	width: 100%;
+	}
+	.contente h1{
+	font-size: 2.4rem;
+	}
+	.buy-section h4{
+		width: 80%;
+	}
+	.buy-section button{
+		width: 60%;
+	}
+	.contact-bottom{
+		flex-direction: column;
+	}
+	.contact-bottom-left{
+		width: 100%;
+	}
+	.contact-bottom-left h2{
+		width: 100%;
+	}
+	.contact-bottom-left button{
+		width: 100%;
+	}
+	.contact-bottom-right{
+		width: 100%;
+		padding-top: 50px;
+	}
+	.address-top, .address-bottom{
+		width:100%;
+		padding-left: 0;
+	}
+	.contact-us{
+		padding-bottom: 0;
+		padding-top: 100px;
+	}
+	.footer-left{
+		width: 100%;
+		padding-left: 0;
+		text-align: center;
+	}
+	.footer-right{
+		text-align: center;
+		width: 100%;
+		
+	}
+	.footer-list{
+		justify-content: center;
+		padding-left: 0;
+	}
 }
