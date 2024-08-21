@@ -1,0 +1,15 @@
+
+@media all and (max-width:1000px){
+	.bars{
+	display: block;
+	}
+	.main-menu{
+		display: none;
+	}
+	.logo h2{
+	color: skyblue;
+	margin: 0;
+	font-size: 30px;
+	padding: 19px 0;
+	}
+}

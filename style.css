@@ -53,6 +53,77 @@ body{
 .main-menu .active a{
 	background: #11ABB0;
 }
+
+.sidebar{
+	height: 100%;
+	padding: 0;
+	width: 50%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	background:#11ABB0;
+	backdrop-filter: blur(10px);
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.sidebar li{
+	width: 100%;
+	border-bottom: 1px solid white;
+	list-style-type: none;
+}
+.sidebar li:hover{
+	background: skyblue;
+	color: black;
+}
+.sidebar li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px 20px;
+	display: block;
+	text-transform: capitalize;
+}
+
+.bars{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	background: #11ABB0;
+	display: none;
+}
+.bars li{
+	list-style-type: none;
+}
+.bars li a{
+	display: block;
+	padding: 14px 30px;
+	font-weight: normal;
+	font-size: 30px;
+	color: white;
+}
+
+/*.x-bars{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	background: skyblue;
+	display: none;
+}
+.x-bars li{
+	list-style-type: none;
+}
+.x-bars li a{
+	display: block;
+	padding: 14px 30px;
+	font-weight: normal;
+	font-size: 30px;
+	color: white;
+}*/
+
 .main-menu ul li a:hover{
 	color: white;
 	transition: 1s;
@@ -249,3 +320,10 @@ span{
 	width:90%;
 	overflow: hidden;
 }
+
+
+
+
+
+
+
