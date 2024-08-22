@@ -134,7 +134,7 @@ body{
 
 /*banner section start*/
 .banner-section{
-	padding: 250px 0;
+	padding: 200px 0;
 	width: 100%;
 	background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/hero-bg.jpg");
 	background-size: cover;
@@ -332,6 +332,27 @@ span{
 	overflow: hidden;
 }
 
+
+.manger-list{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+.manger-list li{
+	margin: 0;
+	list-style-type: none;
+}
+.manger-list li a{
+	color: gray;
+	padding-right: 15px;
+}
+.manger-list li a:hover{
+	color: #0E878B;
+	transition: 0.3s;
+}
+
 /*about section end*/
 
 /*buy section start */
@@ -372,7 +393,9 @@ span{
 	transition: 0.5s;
 }
 
+/*buy section end */
 
+/*contact-us section start */ 
 
 .contact-us{
 	width: 100%;
@@ -399,7 +422,6 @@ span{
 	width: 90%;
 	font-size: 40px;
 	color: white;
-	line-height :50px;
 }
 .contact-bottom-left button{
 	margin-top: 60px;
@@ -444,8 +466,9 @@ span{
 	padding-bottom: 60px;
 }
 
+/* contact-us section end */
 
-
+/*footer section start*/
 
 .footer{
 	padding-bottom: 100px;
@@ -489,28 +512,10 @@ span{
 	font-weight: bold;
 }
 
+/*footer section end*/
 
 
 
-.manger-list{
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: flex-start;
-}
-.manger-list li{
-	margin: 0;
-	list-style-type: none;
-}
-.manger-list li a{
-	color: black;
-	padding: 0px 5px;
-}
-.manger-list li a:hover{
-	color: #0E878B;
-	transition: 0.3s;
-}
 
 
 
