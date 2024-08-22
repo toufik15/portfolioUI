@@ -2,11 +2,13 @@ body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-/*	background: red;*/
+	background: red;
 /*	font-family: "Roboto", sans-serif;
 	font-weight: normal;*/
 }
-
+.container{
+	width: 80%;
+}
 /*header section start */
 
 .header{
@@ -20,7 +22,8 @@ body{
 	clear: both;
 }
 .header-containers{
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 }
@@ -33,6 +36,7 @@ body{
 	color: white;
 }
 .main-menu ul{
+	width: 100%;
 	margin: 0;
 	padding: 0;
 
@@ -484,3 +488,29 @@ span{
 	color: white;
 	font-weight: bold;
 }
+
+
+
+
+.manger-list{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+.manger-list li{
+	margin: 0;
+	list-style-type: none;
+}
+.manger-list li a{
+	color: black;
+	padding: 0px 5px;
+}
+.manger-list li a:hover{
+	color: #0E878B;
+	transition: 0.3s;
+}
+
+
+
