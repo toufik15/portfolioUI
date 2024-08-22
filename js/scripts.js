@@ -20,7 +20,7 @@ jQuery(document).ready(function(){
 
     var winHeight = jQuery(window).scrollTop();
 
-    if (winHeight>500) {
+    if (winHeight>700) {
       jQuery(".header").css({'position' : 'fixed'});
     }
     else{
@@ -36,7 +36,7 @@ jQuery(document).ready(function(){
       if (winHeight>20 && winHeight<500) {
       jQuery(".bars").css({'position' : 'absolute'});
      }
-    else if (winHeight>500) {
+    else if (winHeight>700) {
        jQuery(".bars").removeAttr('style');
     }
   })
@@ -56,5 +56,10 @@ jQuery(document).ready(function(){
     return false
     })
 
+
+    jQuery(".arrow-left").click(function(){
+      jQuery(".contente").removeClass(".contente").addClass(".hide").show(".hide");
+
+    });
 
 });

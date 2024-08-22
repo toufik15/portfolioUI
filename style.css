@@ -2,7 +2,6 @@ body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background: red;
 /*	font-family: "Roboto", sans-serif;
 	font-weight: normal;*/
 }
@@ -134,12 +133,16 @@ body{
 
 /*banner section start*/
 .banner-section{
-	padding: 200px 0;
+	padding: 170px 0;
+	height: auto;
 	width: 100%;
 	background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/hero-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: fixed;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
 }
 .contente{
 	width: 80%;
@@ -167,6 +170,7 @@ span{
 /*service section start*/
 
 .services{
+	width: 100%;	
 	background: #131516;
 	padding: 200px 0;
 }
@@ -216,7 +220,9 @@ span{
 	font-size: 22px;
 	color: #57595A;
 }
-
+.card:hover{
+	cursor: pointer;
+}
 .card:hover .card-body{
 	background: black;
 	color: white;
@@ -515,7 +521,48 @@ span{
 /*footer section end*/
 
 
+.arrow-left{
+	position: absolute;
+	top: 45%;
+	left: 0;
+	background: red;
+}
+.arrow-left i{
+	padding: 20px 25px;
+	background:black;
+	color: white;
+}
+
+.arrow-right{
+	position: absolute;
+	top: 45%;
+	right: 0;
+	background: red;
+}
+.arrow-right i{
+	padding: 20px 25px;
+	background:black;
+	color: white;
+}
 
 
-
-
+.hide{
+	display: none;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.hide h1{
+	color: white;
+	font-size: 4.4rem;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+.hide p{
+	width: 60%;
+	margin: 0 auto;
+	color: rgba(255, 255, 255, 0.6);
+}
+span{
+	color: #11ABB0;
+}
