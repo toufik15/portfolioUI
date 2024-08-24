@@ -26,9 +26,6 @@ jQuery(document).ready(function(){
     else{
       jQuery(".header").removeAttr('style');
     }
-
-
-
   })
 
    jQuery(window).scroll(function(){
@@ -41,25 +38,19 @@ jQuery(document).ready(function(){
     }
   })
 
-
-
   jQuery(".bars").click(function(){
-
     jQuery(this).find(jQuery(".fa-solid")).toggleClass('fa-xmark');
   });
 
 
-    jQuery(".bars").click(function(){
-
-    jQuery(".sidebar").toggle(1000);
-
-    return false
-    })
+  jQuery(".bars").click(function(){
+  jQuery(".sidebar").toggle(1000);
+  return false
+  })
 
 
     jQuery(".arrow-left").click(function(){
       jQuery(".contente").removeClass(".contente").addClass(".hide").show(".hide");
-
     });
 
 });
