@@ -154,29 +154,4 @@
 
 }
 
-@media all and (max-width:454px){
-	.arrow-left{
-		position: absolute;
-		top:150%;
-		left: 30%;
-		background: red;
-	}
-	.arrow-left a{
-		padding: 20px 25px;
-		background:black;
-		color: white;
-	}
 
-	.arrow-right{
-		position: absolute;
-		top: 150%;
-		right: 30%;
-		background: red;
-	}
-	.arrow-right a{
-		padding: 20px 25px;
-		background:black;
-		color: white;
-	}
-
-}
